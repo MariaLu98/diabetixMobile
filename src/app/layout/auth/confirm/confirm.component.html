@@ -1,7 +1,12 @@
+<form class="notificacion-correo">
 <mat-dialog-content>
-  <p>What's your favorite animal?</p>
-</mat-dialog-content>
-<mat-dialog-actions>
-  <button mat-button (click)="onNoClick()">No Thanks</button>
-</mat-dialog-actions>
+  <p>Se envio un mensaje al correo</p>
+  <br>
+    <p>{{email}}</p>
 
+</mat-dialog-content>
+<mat-card-actions class="actions">
+
+  <button mat-raised-button class="action-button" (click)="onNoClick()">Aceptar</button>
+</mat-card-actions>
+</form>

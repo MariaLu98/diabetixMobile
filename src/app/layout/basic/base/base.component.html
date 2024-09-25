@@ -8,5 +8,7 @@
             <div class="page-background"></div>
             <router-outlet></router-outlet>
         </div>      
+        <app-footer (toogleSideMenuEvent)="toogleSideMenuEventHandlers()"
+            (openSideMenuEvent)="openSideMenuEventHandlers($event)"></app-footer>
     </mat-sidenav-content>
 </mat-sidenav-container>

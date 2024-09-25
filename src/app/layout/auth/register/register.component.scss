@@ -1,35 +1,59 @@
+
 .box {
-    box-sizing: border-box;
-  
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    gap: 150px;
-  
-    position: absolute;
-    width: 582px;
-    height: auto;
-    left: calc(50% - 291px); /* 582px / 2 */
-    top: calc(50% - 303px); /* 606px / 2 */
-  
-    border: 1px solid #000000;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  position: absolute;
+  width: calc(100% - 40px); /* Deja 20px de margen a cada lado */
+  max-width: 582px;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+@media (max-width: 300px) {
+  .box {
+    width: calc(100% - 40px); /* Deja 20px de margen a cada lado */
+    padding: 10px;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
   }
+}
+
+
+.form-card {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 98%;
+}
 
   .title {  
     font-size: 32px;
  }
 
  .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: calc(400px * 0.8);
-    background: transparent;
-    margin-bottom: 30px;
-    margin-left: 120px;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.logo {
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+}
+
+@media (max-width: 400px) {
+  .logo {
+    width: 80%; /* Ajusta el tamaño para pantallas pequeñas */
+  }
 }

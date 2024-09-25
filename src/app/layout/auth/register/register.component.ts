@@ -37,10 +37,10 @@ export class RegisterComponent implements OnInit {
   }
 
   submitServer() {
+    debugger;
     const dialogRef = this.dialog.open(ConfirmComponent, {
-      data: {email: this.formGroup.value.email()},
-    });
-
+      data: { email: this.formGroup.value.email }, // Accede a la propiedad directamente
+    });  
     dialogRef.afterClosed().subscribe(result => {
       this.route.navigate([`/auth/login`]);
     });

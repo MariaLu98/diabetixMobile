@@ -12,3 +12,27 @@ $icon-size: 200px;
   font-size: $icon-size;
   opacity: 0.6;
 }
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95%;
+  gap: 30px;
+}
+
+.action-link, .action-button {
+  width: 95%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.action-button {
+  background: #0077B6;
+  color: #FFFFFF;
+}
+.form-card {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 98%;
+}
