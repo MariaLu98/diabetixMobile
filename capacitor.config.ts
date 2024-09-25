@@ -1,10 +1,9 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.example.app',
-  appName: 'diabetix-web-app',
-  webDir: 'dist/diabetix-web-app',
-  bundledWebRuntime: false
+  appName: 'diabetixWebApp',
+  webDir: 'dist/diabetix-web-app'
 };
 
 export default config;
