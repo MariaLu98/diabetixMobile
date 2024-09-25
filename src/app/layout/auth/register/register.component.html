@@ -1,0 +1,58 @@
+<mat-card class="box">
+  <form [formGroup]="formGroup">
+    <div class="logo-container">
+      <img src="assets/images/logo.svg" />
+    </div>
+    <mat-card-header class="form-header-card">
+      <mat-card-title class="title">Registro</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="3px grid" fxLayoutAlign="center">
+
+        <mat-form-field fxFlex="95" fxFlex.gt-md="95" class="form-field" appearance="outline">
+          <mat-label> Usuario
+          </mat-label>
+          <input matInput formControlName="user">
+        </mat-form-field>
+
+        <mat-form-field fxFlex="95" fxFlex.gt-md="95" class="form-field" appearance="outline">
+          <mat-label> Nombre
+          </mat-label>
+          <input matInput formControlName="name">
+        </mat-form-field>
+
+        <mat-form-field fxFlex="95" fxFlex.gt-md="95" class="form-field" appearance="outline">
+          <mat-label> Email
+          </mat-label>
+          <input matInput formControlName="email">
+        </mat-form-field>
+
+        <mat-form-field fxFlex="95" fxFlex.gt-md="95" class="form-field" appearance="outline">
+          <mat-label> Contraseña
+          </mat-label>
+          <input [type]="hide ? 'password' : 'text'" matInput formControlName="password">
+          <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field fxFlex="95" fxFlex.gt-md="95" class="form-field" appearance="outline">
+          <mat-label>Fecha de Nacimiento</mat-label>
+          <input matInput formControlName="birthdate" [matDatepicker]="picker1">
+          <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+        </mat-form-field>
+
+        <mat-form-field fxFlex="95" fxFlex.gt-md="95" class="form-field" appearance="outline">
+          <mat-label> Celular
+          </mat-label>
+          <input matInput formControlName="cellphone">
+        </mat-form-field>
+      </div>
+    </mat-card-content>
+    <mat-card-actions fxLayoutAlign="center">
+      <a fxFlex="95" fxFlex.gt-md="45" [routerLink]="['/auth/login']" style="color: #0077B6;">
+        Volver </a>
+      <button mat-raised-button style="background: #0077B6; color: #FFFFFF;" (click)="submitServer()">Crear
+        Cuenta</button>
+    </mat-card-actions>
+  </form>
+</mat-card>

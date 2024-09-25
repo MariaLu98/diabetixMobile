@@ -1,0 +1,35 @@
+.box {
+    box-sizing: border-box;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 150px;
+  
+    position: absolute;
+    width: 582px;
+    height: auto;
+    left: calc(50% - 291px); /* 582px / 2 */
+    top: calc(50% - 303px); /* 606px / 2 */
+  
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .title {  
+    font-size: 32px;
+ }
+
+ .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: calc(400px * 0.8);
+    background: transparent;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-top: 30px;
+}

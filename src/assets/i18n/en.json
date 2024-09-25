@@ -1,0 +1,227 @@
+{
+  "Layout": {
+    "Sitetitle": "ERP WebApp",
+    "ShortSitetitles": "ERP WebApp",
+    "Home": "Home",
+    "Menu": "Menu"
+  },
+  "GeneralCrud": {
+    "Actions": "Actions",
+    "Name": "Name",
+    "Add": "Add",
+    "New": "New",
+    "Save": "Save",
+    "Cancel": "Cancel",
+    "Edit": "Edit",
+    "Order": "Order",
+    "Read": "Read",
+    "Names": "Names",
+    "Activate": "Activate",
+    "Desactivate": "Desactivate",
+    "Aprove": "Aprove",
+    "Review": "Review",
+    "Finish": "Finish",
+    "Report": "Report",
+    "Delete": "Delete",
+    "Restart": "Restart",
+    "InReview": "Go to review",
+    "Download": "Download",
+    "SendEmails": "Send Emails",
+    "Description": "Description",
+    "Project": "Project",
+    "Client": "Client",
+    "Code": "Code",
+    "IsPaid": "Is Paid",
+    "SubTotal": "Sub Total",
+    "Iva": "Iva",
+    "Total": "Total",
+    "Date": "Date",
+    "Provider":"Provider",
+    "ProjectManager": "Proyect Manager"
+  },
+  "Modules": {
+    "DocumentTypes": {
+      "Name": "Document Type"
+    },
+    "Incomes": {
+      "Name": "Name",
+      "Reference": "Reference",
+      "InvoiceNumber": "Invoice Number",
+      "Date": "Date",
+      "PaymentDate": "Payment Date",
+      "IsPaid": "IsPaid?",
+      "Subtotal": "Sub total",
+      "Taxes": "Taxes",
+      "Total": "Total",
+      "Project":"Project"
+    },
+    "Expenses": {
+      "Name": "Expenses",
+      "Reference": "Reference",
+      "InvoiceNumber": "Invoice Number",
+      "Date": "Date",
+      "PaymentDate": "PaymentDate",
+      "IsPaid": "Is Paid?",
+      "Subtotal": "Subtotal",
+      "Taxes": "Taxes",
+      "Total": "Total",
+      "Project":"Project",
+      "ShippingCost":"Shipping Cost",
+      "HasTaxes": "Has Taxes"
+    },
+    "Projects": {
+      "Name": "Projects",
+      "Description": "Description",
+      "Consecutive": "Consecutive",
+      "PartnerClient": "Client",
+      "PartnerManager": "Managger",
+      "PartnerOwner": "Owner",
+      "Reference": "Reference"
+    },
+    "Task": {
+      "Name": "Tasks"
+    },
+    "Administrative": {
+      "Name": "Administrative"
+    },
+    "ClientTypes": {
+      "Name": "Client Type"
+    },
+    "Partners": {
+      "Number": "Number",
+      "Name": "Partners",
+      "Document": "Document",
+      "Email": "Email",
+      "Address": "Address",
+      "Telephone": "Telephone",
+      "partnerType": "Partner Type",
+      "Client": "Client",
+      "Employee": "Employee",
+      "IsActive": "Is Active",
+      "PartnerState": "PartnerState",
+      "CPK": "CPK",
+      "Loyalty": "Loyalty",
+      "Emails": "Emails",
+      "Employees": "Employees",
+      "Adviser": "Adviser ",
+      "Seller": "Seller",
+      "Sellers": "Sellers",
+      "Contact": "Contact",
+      "Code": "Code",
+      "Advisers": "Advisers",
+      "VerificationCode": "Verification Code",
+      "InitialDatatime": "Initial Datatime",
+      "FinalalDatatime": "Finalal Datatime",
+      "Provider": "Provider",
+      "Expiration":"Expiration Date"
+    },
+    "Users": {
+      "Name": "Users",
+      "UserName": "User name",
+      "Culture": "Culture",
+      "IsActive": "Is Active",
+      "EmailConfirmed": "Email Confirmed"
+    },
+    "Roles": {
+      "Name": "Roles",
+      "Disable": "Disable",
+      "IsSuperAdmin": "Super Admin"
+    },
+    "Modules": {
+      "Name": "Modules",
+      "Url": "Url",
+      "Icon": "Icon",
+      "Key": "Key",
+      "Translation": "Translation",
+      "Active": "Active"
+    },
+    "ConfirmationPage": {
+      "Title": "Confirmation",
+      "SuccessfulOperation": "Successful Operation",
+      "DeleteVehicle": "There is existing tires associated with the vehicle, data may be lost Are you sure to delete the tires recorded in the Vehicle?"
+    },
+    "TaskTypes": {
+      "Name": "Task Type"
+    },
+    "TaskStates": {
+      "Name": "Status"
+    },
+    "Requirements": {
+      "Name": "Requirement",
+      "ExpirationDate":"Expiration Date",
+      "Project":"Project",
+      "PartnerOwner":"Partner Owner",
+      "RequirementState":"RequirementState",
+      "Consecutive":"Consecutive",
+      "Description":"Description",
+      "Reference":"Reference",
+      "SubTotal":"Sub Total",
+      "Taxes":"Taxes",
+      "Total":"Total",
+      "InitialDate":"Initial Date",
+      "FinalDate":"Final Date",
+      "AproximateFinalDate":"Aproximate Final Date"
+
+
+    },
+    "PartnerAssigned": {
+      "Name": "Partner Assigned"
+    },
+    "TaskCost": {
+      "Name": "Cost"
+    },
+    "Tasks": {
+      "Name": "Tasks",
+      "InitialDatatime": "Start date"
+    },
+    "PartnersPartners": {
+      "Name": "PartnersPartners",
+      "Childrens":"Childrens",
+      "IsActive": "Is Active"
+    }
+    ,
+    "PartnersTypesRelationship": {
+      "Name": "Partners Relationship Type",
+      "TypesRelationship": "Relationship Type",
+      "IsActive": "Is Active"
+    }
+  },
+  "Validations": {
+    "IsRequired": "This fieldis required",
+    "MustBeEmail": "Must Be Email",
+    "GreaterThanToStartDate": "This date must be greater than Start Date",
+    "GreaterThanTofrom": "This must be greater than from",
+    "GreaterThanToContainerWeight": "Greater than to container weight",
+    "GreaterThandrySampleContainerWeight": "Greater Than dry Sample Container Weight",
+    "GreaterThanToWetSampleContainerWeight": "Greater than to wet Sample container weight",
+    "GreaterThanToStartTime": "Greater than to Start Time",
+    "ThePasswordsAreNotEquals": "The Passwords Are Not Equals",
+    "GreaterThanZero": "Greater Than Zero",
+    "LessThanFinalDate": "Less Than Final Date",
+    "GreaterThanInitialDate": "Greater Than Initial Date",
+    "LessThanMaxium": "Less Than Maxium",
+    "MaxCharacters": "It cannot be more than 150 characters",
+    "MaxCharacters200": "It cannot be more than 200 characters"
+  },
+  "Errors": {
+    "UserDontHavePartner": "The logged in user does not have an associated partner",
+    "DateMoreThanYear": "Date range exceeds one year",
+    "AlreadyLoadInformation": "You have not finished loading the information",
+    "DontExitPDF": "First, the report must be generated at least once to be able to send it by mail.",
+    "OperationCancelled": "Operation cancelled",
+    "FirstChooseClient": "First you have to choose the client"
+  },
+  "States": {
+    "Canceled": "Canceled",
+    "Finished": "Finished",
+    "New": "New",
+    "InProgress": "In progress",
+    "Paused": "Paused"
+  },
+  "Login": {
+    "email": "email",
+    "Password": "Password",
+    "Email": "Email",
+    "ConfirmPassword": "Confirm Password"
+  }
+}

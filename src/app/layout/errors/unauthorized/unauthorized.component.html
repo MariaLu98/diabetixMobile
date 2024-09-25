@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">
+  <span>No Autorizado</span>
+  <span class="example-spacer"></span>
+  <img class="logo" src="assets/images/company_logo.png">
+  <button mat-icon-button (click)="logOut()">
+    <mat-icon>exit_to_app </mat-icon>
+  </button>
+</mat-toolbar>
+<div class="container-errors">
+  <mat-card>
+    <mat-card-header class="form-header-card">
+      <mat-card-title>Lo sentimos</mat-card-title>
+      <mat-card-subtitle>No estas Autorizado</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="30px grid" fxLayoutAlign="center">
+
+
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="goHome()">Home</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

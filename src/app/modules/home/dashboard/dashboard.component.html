@@ -1,0 +1,33 @@
+<mat-card class="box">
+  <mat-card-content>
+    <mat-card-header>
+      <mat-card-title class="title">MIS PACIENTES</mat-card-title>
+    </mat-card-header>
+    <mat-card appearance="outlined"class="line">
+      <mat-card-content>
+        <div class="person-container">
+          <div>Nombre</div>
+          <div>Fecha de Nacimiento</div>
+          <div>Email</div>
+          <div>Celular</div>
+          <div>Resumen</div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+    <mat-card appearance="outlined" *ngFor="let item of dataSource" class="line">
+      <mat-card-content>
+        <div class="person-container">
+          <div>{{item.name}}</div>
+          <div>{{item.birthdate | date}}</div>
+          <div>{{item.email}}</div>
+          <div>{{item.cellphone}}</div>
+          <button mat-icon-button>
+            <mat-icon>query_stats</mat-icon>
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons aria-label="Select page of periodic elements" class="line">
+    </mat-paginator>
+  </mat-card-content>
+</mat-card>

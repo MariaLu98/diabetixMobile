@@ -1,0 +1,36 @@
+<mat-card class="box">
+  <form [formGroup]="formGroup">
+    <div class="logo-container">
+      <img src="assets/images/logo.svg"/>
+    </div>
+    <mat-card-header class="form-header-card">
+      <mat-card-title>Iniciar Sesion</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="30px grid" fxLayoutAlign="center">
+
+        <mat-form-field fxFlex="95" fxFlex.gt-md="95" class="form-field" appearance="outline">
+          <mat-label> Usuario
+          </mat-label>
+          <input matInput formControlName="email">
+        </mat-form-field>
+
+        <mat-form-field fxFlex="95" fxFlex.gt-md="95" class="form-field" appearance="outline">
+          <mat-label> Contraseña
+          </mat-label>
+          <input [type]="hide ? 'password' : 'text'" matInput formControlName="password">
+          <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </mat-form-field>
+        <div fxFlex="25" fxFlex.gt-md="25">
+          ¿Ya tienes cuenta?
+        </div> 
+      </div>
+    </mat-card-content>
+    <mat-card-actions fxLayoutAlign="center">
+      <a fxFlex="95" fxFlex.gt-md="45" [routerLink]="['/auth/register']" style="color: #0077B6;">
+        Crear Cuenta
+      </a> 
+      <button mat-raised-button style="background: #0077B6; color: #FFFFFF;" (click)="submitServer()">Iniciar Sesion</button>
+    </mat-card-actions>
+  </form>
+</mat-card>

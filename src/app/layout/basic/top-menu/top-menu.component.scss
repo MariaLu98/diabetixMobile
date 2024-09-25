@@ -1,0 +1,45 @@
+.example-spacer {
+  flex: 2 1 auto;
+}
+
+.mat-toolbar {
+  height: 64px;
+}
+
+.logo {  
+  position: relative;
+  padding: inherit;
+  height: 80%;
+  background: transparent;
+}
+
+.mat-toolbar-row {
+  background: #7CD2FF;
+  height: 64px;
+}
+
+.mat-toolbar-expand {
+  background: #7CD2FF;
+  height: 120px;
+}
+.large-icon {
+  font-size: 48px; /* Ajusta el tamaño según tus necesidades */
+  width: 48px; /* Ajusta el tamaño según tus necesidades */
+  height: 48px; /* Ajusta el tamaño según tus necesidades */
+  line-height: 48px; /* Asegura que el icono esté centrado verticalmente */
+}
+
+.size-icon {
+  font-size: 24px; /* Tamaño normal del icono */
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+
+.mat-icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto; /* Asegura que el botón se ajuste al tamaño del icono */
+  height: auto; /* Asegura que el botón se ajuste al tamaño del icono */
+}

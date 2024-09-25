@@ -1,0 +1,40 @@
+.login-card {
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+.header-card {
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+.container-errors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  height: 64px;
+}
+
+.logo {  
+  position: relative;
+  padding: inherit;
+  height: 80%;
+  background: transparent;
+}

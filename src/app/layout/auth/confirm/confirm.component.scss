@@ -1,0 +1,14 @@
+$icon-size: 200px;
+
+:host {
+  width: min(400px, 100%);
+  align-self: center;
+  text-align: center;
+}
+
+.schedule-icon {
+  width: $icon-size;
+  height: $icon-size;
+  font-size: $icon-size;
+  opacity: 0.6;
+}

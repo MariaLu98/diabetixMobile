@@ -1,0 +1,12 @@
+<div class="page-background"></div>
+
+<mat-sidenav-container fullscreen>
+    <mat-sidenav-content>
+        <app-top-menu (toogleSideMenuEvent)="toogleSideMenuEventHandlers()"
+            (openSideMenuEvent)="openSideMenuEventHandlers($event)"></app-top-menu>
+        <div class="content">
+            <div class="page-background"></div>
+            <router-outlet></router-outlet>
+        </div>      
+    </mat-sidenav-content>
+</mat-sidenav-container>

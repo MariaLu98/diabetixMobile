@@ -1,0 +1,271 @@
+{
+  "Layout": {
+    "Sitetitle": "ERP Platform",
+    "ShortSitetitles": "AUTMA",
+    "Home": "Home",
+    "Menu": "Menu"
+  },
+  "GeneralCrud": {
+    "Actions": "Acciones",
+    "Name": "Nombre",
+    "Add": "Añadir",
+    "New": "Nuevo",
+    "Save": "Guardar",
+    "Cancel": "Cancelar",
+    "Edit": "Editar",
+    "Order": "Ordenar",
+    "Read": "Leer",
+    "Names": "Nombres",
+    "Activate": "Activar",
+    "Desactivate": "Desactivar",
+    "Aprove": "Aprobar",
+    "Review": "Revisar",
+    "Finish": "Finalizar",
+    "Report": "Reporte",
+    "Delete": "Borrar",
+    "Restart": "Reiniciar",
+    "InReview": "Pasar a revision",
+    "Download": "Descargar",
+    "SendEmails": "Enviar Emails",
+    "Description":"Descripción",
+    "Project":"Projecto",
+    "Client":"Cliente",
+    "Code":"Codigo",
+    "IsPaid":"Esta pago",
+    "SubTotal":"Sub Total",
+    "Iva":"Iva",
+    "Total":"Total",
+    "Date":"Fecha",
+    "Provider":"Provedor",
+    "ProjectManager": "Encargado del Proyecto"
+  },
+  "Modules": {  
+    "DocumentTypes": {
+      "Name": "Tipo de Documento"
+    },
+    "Expenses": {
+      "Name": "Gastos",
+      "Reference": "Referencia",
+      "InvoiceNumber": "Numero de Factura",
+      "Date": "Fecha",
+      "PaymentDate": "Fecha de Pago",
+      "IsPaid": "Esta pago?",
+      "Subtotal": "Subtotal",
+      "Taxes": "Impuestos",
+      "Total": "Total",
+      "Project":"Projecto",
+      "Description":"Descripción",
+      "ShippingCost":"Costo de Envío",
+      "HasTaxes": "Tiene Impuestos?",
+      "ExpenseType": "Tipo de Gasto"
+
+    },
+    "Incomes": {
+      "Name": "Ingresos",
+      "Reference": "Referencia",
+      "InvoiceNumber": "Numero de Factura",
+      "Date": "Fecha",
+      "PaymentDate": "Fecha de Pago",
+      "IsPaid": "Esta pago",
+      "Subtotal": "Subtotal",
+      "Taxes": "Impuestos",
+      "Total": "Total",
+      "Project":"Projecto",
+      "Description":"Descripcion"
+
+
+    },
+    "Projects": {
+      "Name":"Proyectos",
+      "Description":"Descripción",
+      "Consecutive":"Consecutivo",
+      "PartnerClient":"Cliente",
+      "PartnerManager":"Asesor",
+      "PartnerOwner":"Propietario",
+      "Reference":"Referencia"
+    },
+    "Task": {
+      "Name": "Tareas"    
+    },
+    "ClientTypes": {
+      "Name": "Tipo de Cliente"
+    },
+    "Administrative": {
+      "Name":"Administrativo"
+    },
+    "Partners": {
+      "Number": "No",
+      "Name": "Terceros",
+      "Document": "Documento",
+      "Email": "Correo electrónico",
+      "Address": "Dirección",
+      "Telephone": "Teléfono",
+      "partnerType": "Tipo de Tercero",
+      "Client": "Cliente",
+      "Employee": "Empleado",
+      "IsActive": "Activo",
+      "PartnerState": "Estado del Tercero",
+      "CPK": "CPK",
+      "Loyalty": "Fidelizacion",  
+      "Emails": "Correos electrónicos" ,
+      "Employees": "Empleados",
+      "Adviser": "Asesor" ,
+      "Seller":"Vendedor" ,      
+      "Sellers":"Vendedores",
+      "Contact": "Contacto",
+      "Code": "Codigo",
+      "Advisers": "Asesores",
+      "VerificationCode": "Codigo de Verificación",
+      "InitialDatatime": "Fecha de Inicio",
+      "FinalDatatime": "Fecha Final",
+      "TypesPerson": "Tipo de Persona",
+      "Provider": "Provedor",
+      "Expiration":"Fecha de Expiracion"
+    }, 
+    "Users": {
+      "Name": "Usuarios",
+      "UserName": "Nombre de usuario",
+      "Culture": "Cultura",
+      "IsActive": "Está activo",
+      "EmailConfirmed": "Correo electrónico confirmado"
+    },
+    "Modules": {
+      "Name": "Módulos",
+      "Url": "URL",
+      "Icon": "Icono",
+      "Key": "Clave",
+      "Translation": "Traduccion",
+      "Active": "Activo"
+    },
+    "Roles": {
+      "Name": "Roles",
+      "Disable": "Desactivar",
+      "IsSuperAdmin": "Super Admin"
+    }, 
+    "Tasks":{
+      "Name": "Tareas",
+      "Description":"Descripción",
+      "TaskType":"Tipo de Tarea",
+      "TaskState":"Estado de la Tarea",
+      "Requirement":"Requerimiento",
+      "PartnerAssigned":"Tercero Asignado",
+      "Cost":"Costo",
+      "InitialDatatime":"Fecha de Inicio",
+      "FinalDatatime":"Fecha Final",
+      "ExpitationDate":"Fecha de Expiración",
+      "AproximateDatatime":"Fecha Aproximada"
+    },    
+    "ConfirmationPage": {
+      "Title": "Confirmación",
+      "SuccessfulOperation" :"Operacion exitosa",
+      "DeleteVehicle": "Hay llantas existente asociada al vehiculo, se pueden perder datos ¿Está seguro de borrar las Llantas registrados en el Vehiculo?"
+    }, 
+    "TaskTypes": {
+      "Name": "Tipo de Tarea"
+    },
+    "TaskStates": {
+      "Name": "Estado"
+    },
+    "Requirements": {
+      "Name": "Requerimiento",
+      "ExpirationDate":"Fecha de Expiracion",
+      "Project":"Proyecto",
+      "PartnerOwner":"Propietario",
+      "RequirementState":"Estado del Requerimiento",
+      "Consecutive":"Consecutivo",
+      "Description":"Descripcion",
+      "Reference":"Referencia",
+      "SubTotal":"SubTotal",
+      "Taxes":"Impuestos",
+      "Total":"Total",
+      "InitialDate":"Fecha de Inicio",
+      "FinalDate":"Fecha de Finalizacion",
+      "AproximateFinalDate":"Fecha Aproximada de Finalizacion"
+    },
+    "PartnerAssigned": {
+      "Name": "Tercero Asignado"
+    },
+    "TaskCost": {
+      "Name": "Costo"
+    },
+
+    "PartnersPartners": {
+      "Name": "Empleados",
+      "Childrens":"Empleado",
+      "IsActive": "Está activo"
+    }
+    ,
+    "PartnersTypesRelationship": {
+      "Name": "Relaciones",
+      "TypesRelationship": "Tipo de relación",
+      "IsActive": "Está activo"
+    },
+    "IncomesImages": {
+      "Name": "Facturas",
+      "Bill": "Factura",
+      "Date": "Fecha",
+      "UrlImage": "Detalles"
+    },
+    "ExpensesImages": {
+      "Name": "Facturas",
+      "Bill": "Factura",
+      "Date": "Fecha",
+      "UrlImage": "Detalles"
+    },
+      "GeneralSettings": {
+      "Name": "Configuraciones Generales",
+      "ObjectName": "Nombre",
+      "Value": "Valor"
+
+    },
+    "AuditBackground": {
+    "Name": "Background",
+    "ResponseStates": "Estados de Respuesta",
+    "ObjectName": "Nombre",
+    "InitialDate": "Fecha de Inicio",
+    "FinalDate": "Fecha Final",
+    "IsActive": "Activo?"
+
+  }
+
+  },
+  "Validations": {
+    "IsRequired": "Este campo es requerido",
+    "MustBeEmail": "Debe ser un correo electrónico",
+    "GreaterThanToStartDate": "Esta fecha debe ser mayor que la Fecha de Inicio",
+    "GreaterThanTofrom": "Este debe ser mayor a De",
+    "GreaterThanToContainerWeight": "Este debe ser mayor al peso del Recipiente",
+    "GreaterThandrySampleContainerWeight": "Este debe ser mayor al peso de la muestra seca + Recipiente",
+    "GreaterThanToWetSampleContainerWeight": "Este debe ser mayor al peso de la muestra humeda + Recipiente",
+    "GreaterThanToStartTime": "Este debe ser mayor a la hora de inicio",
+    "ThePasswordsAreNotEquals": "Las contraseñas no coinciden",
+    "GreaterThanZero": "Este debe ser mayor a 0",
+    "LessThanFinalDate": "Este debe ser menor a la Fecha Final",
+    "GreaterThanInitialDate": "Este debe ser mayor a la Fecha Inicial",
+    "LessThanMaxium": "Tiene que ser menor a Maximo",
+    "MaxCharacters": "Tiene que tener menos de 150 caracteres",
+    "MaxCharacters200": "Tiene que tener menos de 200 caracteres"
+  },
+  "Errors":{
+    "UserDontHavePartner":"El usuario logeado no tiene partner asociado",
+    "DateMoreThanYear":"El rango de fechas excede a un año",
+    "AlreadyLoadInformation": "No ha terminado de cargar la información",
+    "DontExitPDF": "Primero se debe generar el reporte al menos una vez para poder enviarlo por correo",
+    "OperationCancelled":"Operacion Cancelada",
+    "FirstChooseClient": "Primero tiene que escoger el cliente"
+  },
+  "States": {
+    "Canceled": "Cancelado",
+    "Finished": "Terminado",
+    "New": "Nuevo",
+    "InProgress": "En progreso",
+    "Paused": "Pausado"
+  },
+  "Login": {
+    "email": "correo electrónico",
+    "Password": "Contraseña",
+    "Email": "Email",
+    "ConfirmPassword": "Confirmar contraseña"
+  }
+
+}
