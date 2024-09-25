@@ -11,6 +11,7 @@ export class TopMenuComponent implements OnInit {
 
   logo: string = '';
   expand = true;
+  email = 'Maria@gmail.com';
   constructor(private route: Router) {
   }
 

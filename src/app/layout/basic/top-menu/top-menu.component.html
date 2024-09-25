@@ -1,5 +1,5 @@
-<mat-toolbar [class]="expand ?  'mat-toolbar-row' : 'mat-toolbar-expand' ">
-  <img class="logo" src="assets/images/logo.svg">
+<mat-toolbar [class]="expand ?  'mat-toolbar-row' : 'mat-toolbar-expand' " >
+  <img class="logo" src="assets/images/logo.svg" *ngIf="expand">
   <span class="example-spacer"></span>
   
   <button appAccessControl mat-icon-button aria-label="Example icon-button with share icon" (click)="open()">
@@ -8,9 +8,10 @@
     </mat-icon>
   </button>
   <div *ngIf="!expand">
-    
+    <h4>{{email}}</h4>
+    <h2>Hola, Maria Lucia</h2>
     </div>
-  <button appAccessControl mat-icon-button aria-label="Example icon-button with share icon" (click)="logOut()">
+  <button appAccessControl mat-icon-button aria-label="Example icon-button with share icon" (click)="logOut()" *ngIf="!expand">
     <mat-icon  class="size-icon">exit_to_app</mat-icon>
   </button>
 </mat-toolbar>
